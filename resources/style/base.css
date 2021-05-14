@@ -1,6 +1,70 @@
 @charset "utf-8";
 /* styly se aplikují na všechny velikosti viewportů */
 
-body{
-    background: aqua;
+html {
+    scroll-behavior: smooth;
+    font-size: 14px;
 }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+h1, h2, h3{
+    font-weight: bold;
+    line-height: 1.125;
+    margin: 0 0 1.125rem 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 3.375rem;
+}
+h2{
+    font-size: 2.25rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    margin: 0 0 1.125rem 0;
+}
+a{
+    color: #333333;
+}
+
+/* slidy prezentace start */
+
+.chapterScreen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blueScreen{
+    background-color: #80add7;
+}
+.turquoiseScreen{
+    background-color: #0abda0;
+}
+.lightScreen{
+    background-color: #ebf2ea;
+}
+.greenScreen{
+    background-color: #d4dca9;
+}
+.brownScreen{
+    background-color: #bf9d7a;
+}
+
+/* slidy prezentace konec */
+
+/* hlavní menu start */
+
+.mainMenu{
+    display: none;
+}
+
+/* hlavní menu konec */
