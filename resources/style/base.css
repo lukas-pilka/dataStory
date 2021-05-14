@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* styly se aplikují na všechny velikosti viewportů */
+
+body{
+    background: aqua;
+}
